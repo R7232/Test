@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    >
+
+
+    <ImageView
+        android:src="@drawable/naruto"
+        android:layout_width="wrap_content"
+        android:layout_height="210dp"
+        android:scaleType="fitXY"
+
+        />
+    <TextView
+        android:text="火影忍者"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#FAFAFA"
+        android:background="#40C4FF"
+        android:textSize="25sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FAFAFA"
+        android:text="（日語：NARUTO -ナルト-），簡稱「火影」，是日本漫畫家岸本齊史的一部少年漫畫作品。描述在作者虛構的世界中，男主角漩渦鳴人與其夥伴的經歷。"
+        android:textSize="19sp"
+        />
+
+</LinearLayout>

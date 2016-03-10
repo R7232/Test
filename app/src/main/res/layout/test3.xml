@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:layout_margin="16dp"
+    android:background="@android:color/holo_red_light"
+    android:orientation="horizontal"
+    >
+
+    <ImageView
+        android:src="@drawable/sasuke"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="16dp"
+        android:scaleType = "centerCrop"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="佐助"
+        android:layout_margin="16dp"
+        android:textSize="45sp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+
+        />
+
+</LinearLayout>
